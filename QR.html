@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">QR Code Generator</div>
+    </div>
+    <div class="content">
+        <div class="create">
+            <h1 class="subtitle">QR Code Generator</h1>
+            <div class="explaine">QR Codes allow smartphones users to acces your website simply and quickly</div>
+            <div class="eexplaine">Enter your URL below to generate a QR Code and download the image</div>
+            <input type="url" id="sitename" placeholder="Enter your site">
+            <div class="color">color : </div>
+            <input type="text" id="col" placeholder="Choose a color ex : red">
+            <button type="submit" class="but" onclick="submit()">Generate QR Code</button>
+        </div>
+        <div class="image"><img src="qr-code.svg" alt="" width="200px" height="200px"></div>
+        <div id="qr_content">
+            <div id="qr_image"></div>
+            <a id="save_qr" style="text-decoration:none">Save it</a>
+            <button id="remove_qr" onclick="remov_it()">remove it</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+    integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</body>
+</html>

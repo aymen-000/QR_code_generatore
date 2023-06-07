@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding :0px ;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.header {
+    background-color: rgba(240, 13, 13, 0.856);
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1.5px; 
+}
+.content {
+    text-align: center;
+    display: flex;
+    align-content: space-around;
+    align-items: flex-start;
+    justify-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.create {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+h1 {
+    letter-spacing: 1.5px;
+}
+.explaine {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#sitename {
+    margin-top: 10px;
+    height: 36px;
+    margin-bottom: 8px;
+    background-color: rgba(83, 83, 168, 0.342);
+    border-radius: 5px;
+    border: hidden;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+#col {
+    height: 36px;
+    margin-bottom: 8px;
+    background-color: rgba(83, 83, 168, 0.342);
+    border-radius: 5px;
+    border: hidden;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 8px;
+}
+.but {
+    margin-top: 8px;
+    height: 42px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 0, 0, 0.726);
+    border-radius: 5px;
+    border: hidden;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.but:hover , #save_qr:hover ,#remove_qr:hover{
+    background-color: rgba(255, 0, 0, 0.426);
+}
+#qr_content {
+    margin-top: 40px;
+    display: none;
+}
+#qr_image {
+    width: 300px;
+    height: 300px;
+}
+#save_qr, #remove_qr {
+    margin-top: 8px;
+    height: 42px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 0, 0, 0.726);
+    border-radius: 5px;
+    border: hidden;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    width: 120px;
+}
